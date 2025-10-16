@@ -1,0 +1,263 @@
+
+/* main */
+body {background-color: #1B73B7; color: #000000; font-family:Tahoma,sans-serif;}
+a {color: #000000;}
+table, tr, th, td { border:2px solid #000000; border-collapse:collapse;
+    padding-top:1px; padding-bottom:1px; margin-top:1px; margin-bottom:1px; margin-left:1px; margin-right:1px;  }
+
+.GenTable {border:3px solid #000000; width:20vw; background-color:#ffffff; color:#1B73B7; text-emphasis:bold; 
+    padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+.GenTable a {color: #1B73B7;}
+
+/* main */
+
+
+/* header */
+.Header-container {display:grid;  text-align:center; 
+    grid-template-columns: 165px 60px 1fr; grid-template-rows:100%; grid-column-gap:10px;}
+    
+.hcItem1 {justify-self:start; align-self:center; }
+.hcItem2 {justify-self:start; align-self:center; }
+.hcItem3 {justify-self:end; align-self:center; padding-right:100px;}
+
+/* nav */
+.categoryDropdown {position: relative; display: inline-block; }
+.categoryDropdown:hover .categoryContent {display: block; }
+.categoryDropdown:hover .categoryButton {background-color: #ffffff; }
+.categoryButton {background-color: #ffffff; color: #000000; padding:10px; font-size:16px; border:2px solid #000000;}
+.categoryContent {z-index:1; display:none; position:absolute; background-color:#000000; min-width:160px; }
+.categoryContent a {background-color:#ffffff; color:#000000; padding: 12px 16px; display:block; border: 1px solid #000000;}
+
+/* nav */
+/* header */
+
+
+/* Grid Template */
+.grid-container {display:grid; align-items:center; justify-items:center; text-align:left; 
+    grid-template-columns:500px 500px 500px; grid-template-rows:100px 100px 100px;}
+
+.TSI1 {align-self:end; justify-self:start; font-family:'Times New Roman',serif;}
+.TSI2 {align-self:start; justify-self:end;}
+.TSI3 {align-self:end; justify-self:end;}
+.TSI4 {align-self:start; justify-self:start;}
+.TSI5 {align-self:end ; justify-self:start ;}
+.TSI6 {align-self:start ; justify-self:end ;}
+
+/* Grid Template */
+
+
+/* Home Pages */
+.HPContainer {display:grid; align-items:center; justify-items:center; text-align:center; 
+    grid-template-columns:1fr 1fr 1fr; grid-template-rows:40% 1fr; grid-column-gap:10px;}
+
+.HPI1 {align-self:start; justify-self:center; grid-column: 1 / 3}
+.HPI2 {align-self:start; justify-self:center; grid-column: 3 / 4}
+.HPI3 {align-self:center; justify-self:center; grid-column: 1 / 3}
+.HPI4 {align-self:start; justify-self:center;grid-column: 3 / 4}
+
+h2 {font-family:'Times New Roman',serif;}
+
+.NavTable { border:2px solid #000000;  background-color:#ffffff; color:#1B73B7; text-emphasis:bold; padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+
+/* Home Pages */
+
+
+/* Categorys */
+
+.CatPContainer {display:grid; align-items:center; justify-items:center; text-align:left;
+    grid-template-columns:1fr; grid-template-rows:auto; grid-column-gap:10px;}
+
+.CatIntro {display:grid; align-items:center; justify-items:center; text-align:left;
+    grid-template-columns:1fr; grid-template-rows:auto; grid-column-gap:10px;}
+
+.CatPi1 {align-self:center; justify-self:center;}
+.CatPi2 {align-self:center; justify-self:center;}
+.CatPi3 {align-self:center; justify-self:center;}
+.CatPi4 {align-self:center; justify-self:center;}
+
+.CatTable {border:2px solid #000000;  background-color:#ffffff; color:#1B73B7; text-emphasis:bold; text-align:center;
+    padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+
+/* Episodes */
+.ECatPiA {align-self:center; justify-self:center;}
+.ECatPiB {align-self:center; justify-self:center;}
+.ECatPiC {align-self:center; justify-self:center;}
+.ECatPiD {align-self:center; justify-self:center;}
+.ECatPiE {align-self:center; justify-self:center; grid-row: 5 / 7}
+.ECatPiF {align-self:center; justify-self:center;}
+.ECatPiG {align-self:center; justify-self:center;}
+.ECatPiH {align-self:center; justify-self:center;}
+.ECatPiI {align-self:center; justify-self:center;}
+.ECatPiJ {align-self:center; justify-self:center;}
+.ECatPiK {align-self:center; justify-self:center;}
+.ECatPiL {align-self:center; justify-self:center;}
+.ECatPiM {align-self:center; justify-self:center;}
+.ECatPiN {align-self:center; justify-self:center;}
+.ECatPiO {align-self:center; justify-self:center;}
+.ECatPiP {align-self:center; justify-self:center;}
+.ECatPiQ {align-self:center; justify-self:center;}
+.ECatPiR {align-self:center; justify-self:center;}
+.ECatPiS {align-self:center; justify-self:center;}
+.ECatPiT {align-self:center; justify-self:center;}
+.ECatPiV {align-self:center; justify-self:center;}
+.ECatPiW {align-self:center; justify-self:center;}
+.ECatPiX {align-self:center; justify-self:center;}
+.ECatPiY {align-self:center; justify-self:center;}
+.ECatPiZ {align-self:center; justify-self:center;}
+/* Episodes */
+
+
+/* Other */
+.OCatPiA {align-self:center; justify-self:center;}
+.OCatPiB {align-self:center; justify-self:center;}
+.OCatPiC {align-self:center; justify-self:center;}
+.OCatPiD {align-self:center; justify-self:center;}
+.OCatPiE {align-self:center; justify-self:center;}
+.OCatPiF {align-self:center; justify-self:center;}
+.OCatPiG {align-self:center; justify-self:center;}
+.OCatPiH {align-self:center; justify-self:center;}
+.OCatPiI {align-self:center; justify-self:center;}
+.OCatPiJ {align-self:center; justify-self:center;}
+.OCatPiK {align-self:center; justify-self:center;}
+.OCatPiL {align-self:center; justify-self:center;}
+.OCatPiM {align-self:center; justify-self:center;}
+.OCatPiN {align-self:center; justify-self:center;}
+.OCatPiO {align-self:center; justify-self:center;}
+.OCatPiP {align-self:center; justify-self:center;}
+.OCatPiQ {align-self:center; justify-self:center;}
+.OCatPiR {align-self:center; justify-self:center;}
+.OCatPiS {align-self:center; justify-self:center;}
+.OCatPiT {align-self:center; justify-self:center;}
+.OCatPiV {align-self:center; justify-self:center;}
+.OCatPiW {align-self:center; justify-self:center;}
+.OCatPiX {align-self:center; justify-self:center;}
+.OCatPiY {align-self:center; justify-self:center;}
+.OCatPiZ {align-self:center; justify-self:center;}
+/* Other */
+
+/* Other */
+.CCatPiA {align-self:center; justify-self:center;}
+.CCatPiB {align-self:center; justify-self:center;}
+.CCatPiC {align-self:center; justify-self:center;}
+.CCatPiD {align-self:center; justify-self:center;}
+.CCatPiE {align-self:center; justify-self:center;}
+.CCatPiF {align-self:center; justify-self:center;}
+.CCatPiG {align-self:center; justify-self:center;}
+.CCatPiH {align-self:center; justify-self:center;}
+.CCatPiI {align-self:center; justify-self:center;}
+.CCatPiJ {align-self:center; justify-self:center;}
+.CCatPiK {align-self:center; justify-self:center;}
+.CCatPiL {align-self:center; justify-self:center;}
+.CCatPiM {align-self:center; justify-self:center;}
+.CCatPiN {align-self:center; justify-self:center;}
+.CCatPiO {align-self:center; justify-self:center;}
+.CCatPiP {align-self:center; justify-self:center;}
+.CCatPiQ {align-self:center; justify-self:center;}
+.CCatPiR {align-self:center; justify-self:center;}
+.CCatPiS {align-self:center; justify-self:center;}
+.CCatPiT {align-self:center; justify-self:center;}
+.CCatPiV {align-self:center; justify-self:center;}
+.CCatPiW {align-self:center; justify-self:center;}
+.CCatPiX {align-self:center; justify-self:center;}
+.CCatPiY {align-self:center; justify-self:center;}
+.CCatPiZ {align-self:center; justify-self:center;}
+/* Other */
+
+/* Categorys */
+
+
+/* Artworks */
+
+.ACatIntro {display:grid; align-items:center; justify-items:center; text-align:center;
+    grid-template-columns:1fr; grid-template-rows:auto; grid-column-gap:10px;}
+
+.ABCatPi1 {align-self:center; justify-self:center;}
+.ABCatPi2 {align-self:center; justify-self:center;}
+.ABCatPi3 {align-self:center; justify-self:center;}
+.ABCatPi4 {align-self:center; justify-self:center;}
+
+.CatTable {border:3px solid #000000; background-color:#ffffff; color:#1B73B7; text-emphasis:bold; padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+
+.ACatPContainer {display:grid; align-items:center; justify-items:center; text-align:center;
+    grid-template-columns:1fr ; grid-template-rows:auto; grid-column-gap:10px;}
+
+    .AGCatPi1 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi2 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi3 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi4 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi5 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi6 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi7 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi8 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi9 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi10 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi11 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi12 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi13 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi14 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi15 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi16 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi17 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi18 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi19 {align-self:center; justify-self:center; text-align:center;}
+    .AGCatPi20 {align-self:center; justify-self:center; text-align:center;}
+
+/* Artworks */
+
+
+/* Articals */
+.RefTable {border:3px solid #000000; width:100%; background-color:#ffffff; color:#1B73B7; text-emphasis:bold; padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+.RefTable a {color: #1B73B7;}
+
+/* Artwork Articals */
+.AAPContainer {display:grid; align-items:start; justify-items:start; text-align:left; 
+    grid-template-columns:1fr 1fr 1fr 1fr; grid-template-rows:auto; grid-column-gap:10px; grid-row-gap:3px;}
+
+.AAPIC {align-self:start; justify-self:start; grid-column: 1 / 2; }
+
+.AAPI1 {align-self:start; justify-self:start; grid-column: 1 / 5; text-align:center; }
+.AAPI2 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI3 {align-self:start; justify-self:start; grid-column: 2 / 4;}
+.AAPI4 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI5 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI6 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI7 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI8 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI9 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+.AAPI10 {align-self:start; justify-self:start; grid-column: 2 / 4; }
+
+.AAPIR {align-self:start; justify-self:start; grid-column: 2 / 4; }
+
+.ArtTable {border:3px solid #000000; width:100%; background-color:#ffffff; color:#1B73B7; text-emphasis:bold; padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+.ArtTable img {border:5px; border-style:solid; color:#1B73B7;}
+
+/* Artwork Articals */
+
+/* Gen Articals */
+.GenArtTable tr td { border:3px solid #1B73B7;  background-color:#1B73B7; color:#000000; text-emphasis:bold; 
+    padding-top:3px; padding-bottom:3px; margin-top:3px; margin-bottom:3px; margin-left:3px; margin-right:3px; }
+
+.EAPContainer {display:grid; align-items:start; justify-items:start; text-align:left; 
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr; grid-template-rows:auto; grid-column-gap:10px; grid-row-gap:3px;}
+
+.EAPIC {align-self:start; justify-self:start; grid-column: 1 / 2; grid-row: 2 / 4;}
+
+.EAPI1 {align-self:start; justify-self:start; text-align:center; grid-column: 1 / 6; }
+.EAPI2 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI3 {align-self:start; justify-self:start; grid-column: 5 / 6; grid-row: 2 / 10;}
+.EAPI4 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI5 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI6 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI7 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI8 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI9 {align-self:start; justify-self:start; grid-column: 2 / 5; }
+.EAPI10 {align-self:start; justify-self:start; grid-column: 2 /5; }
+
+.EAPIR {grid-column: 2 / 5; }
+
+
+/* Gen Articals */
+
+/* Articals */
+
+/* New */

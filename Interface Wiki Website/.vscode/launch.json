@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Test-Page",
+            "file": "C:/Users/User/Documents/4.F-E/PP 2024/Interface Wiki/Interface Wiki Website/SItePages/HomePages/GRMode HPage.html"
+        }
+    ]
+}
